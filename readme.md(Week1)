@@ -1,0 +1,118 @@
+# Wind Power Generation - Exploratory Data Analysis
+
+This repository contains an exploratory data analysis (EDA) of wind power generation data from multiple locations. The analysis is presented in a Jupyter notebook that provides insights into wind power generation patterns, relationships with weather conditions, and temporal variations.
+
+## Overview
+
+The EDA notebook (`eda.ipynb`) provides a comprehensive analysis of wind power generation data, including:
+- Power generation patterns and distributions
+- Wind characteristics analysis
+- Temporal patterns (hourly, daily, monthly)
+- Weather impact analysis
+- Location-specific analysis
+- Correlation analysis between features
+
+## Data Structure
+
+The analysis uses the following data files:
+- `merged_locations.csv`: Combined dataset containing wind power generation and weather data from multiple locations
+- Individual location files (if available)
+
+Key features in the dataset include:
+- Power generation values
+- Wind speed at different heights (10m, 100m)
+- Wind direction at different heights
+- Temperature and humidity measurements
+- Timestamp information
+
+## Notebook Contents
+
+The notebook is organized into the following sections:
+
+1. **Data Loading and Preprocessing**
+   - Loading the merged dataset
+   - Basic data information
+   - Time feature extraction
+   - Missing value analysis
+
+2. **Power Generation Analysis**
+   - Overall power distribution
+   - Power distribution by location
+   - Power statistics by location
+
+3. **Wind Characteristics Analysis**
+   - Wind speed vs. Power relationships
+   - Wind direction vs. Power relationships
+   - Correlation analysis of wind features
+
+4. **Temporal Patterns Analysis**
+   - Hourly patterns
+   - Weekday vs. Weekend patterns
+   - Monthly patterns
+
+5. **Weather Impact Analysis**
+   - Temperature vs. Power relationships
+   - Humidity vs. Power relationships
+   - Weather feature correlations
+
+6. **Location-Specific Analysis**
+   - Detailed analysis for each location
+   - Location-specific patterns and characteristics
+
+7. **Power Threshold Analysis**
+   - Analysis of time spent above different power thresholds
+   - Location comparison for power thresholds
+
+
+## Requirements
+
+To run the notebook, you need the following Python packages:
+```
+pandas
+numpy
+matplotlib
+seaborn
+jupyter
+```
+
+You can install these packages using pip:
+```bash
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+## Usage
+
+1. Clone this repository
+2. Ensure all required packages are installed
+3. Place your data files in the same directory as the notebook
+4. Start Jupyter Notebook:
+   ```bash
+   jupyter notebook
+   ```
+5. Open `eda.ipynb`
+6. Run the cells in sequence
+
+## Key Findings
+
+The analysis reveals:
+- Patterns in power generation across different time scales
+- Relationships between wind characteristics and power output
+- Impact of weather conditions on power generation
+- Location-specific characteristics and patterns
+- Important features for power generation prediction
+
+## Contributing
+
+Feel free to contribute to this analysis by:
+1. Forking the repository
+2. Creating a feature branch
+3. Making your changes
+4. Submitting a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+For questions or suggestions, please open an issue in the repository.
